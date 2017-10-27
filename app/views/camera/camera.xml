@@ -1,0 +1,10 @@
+<Page navigatingTo="onNavigatingTo" class="page"
+    xmlns="http://schemas.nativescript.org/tns.xsd" >
+    <ActionBar class="action-bar">
+        <Label class="action-bar-title" text="Take a Picture"></Label>
+    </ActionBar>
+    <StackLayout>
+    <Button text="Click!" tap="takePicture" />
+     <Image src="{{img}}" stretch="none" horizontalAlignment="center" />
+    </StackLayout>
+</Page>

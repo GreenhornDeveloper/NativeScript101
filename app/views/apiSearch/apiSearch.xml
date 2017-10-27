@@ -1,0 +1,7 @@
+<Page loaded="loaded">
+    <StackLayout orientation="vertical">
+        <Image src="res://logo" stretch="none" horizontalAlignment="center" />
+        <TextField id="searchField" hint="Search Top Albums" text="{{searchTerm}}" />
+        <Button text="Search Last.FM Api" tap="getTopAlbums"/>
+    </StackLayout>
+</Page>

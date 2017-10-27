@@ -1,0 +1,6 @@
+<Page loaded="pageLoaded">
+  <ActionBar title="Javascript" class="action-bar"></ActionBar>
+  <StackLayout>
+    <TextView text="Some Text" />
+    </StackLayout>
+</Page>

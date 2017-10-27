@@ -1,0 +1,10 @@
+<Page loaded="pageLoaded">
+  <ActionBar title="Javascript" class="action-bar"></ActionBar>
+  <StackLayout>
+    <Button text="Navigate to Api" tap="navToSearch"/>
+    <Button text="Pass Data to Nav Display" tap="passData"/>
+    <Button text="Go To Camera" tap="navToCamera"/>
+    <Button text="Connectivity" tap="navToConnectivity"/>
+    <Button text="File System" tap="navToFile"/>
+    </StackLayout>
+</Page>
